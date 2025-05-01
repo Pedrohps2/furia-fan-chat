@@ -40,16 +40,16 @@ Abra seu navegador e acesse http://localhost:3000.
 
 Estrutura de Diretórios
 A estrutura de diretórios do projeto é a seguinte:
-/furia-csgo-fan-hub
-│
-├── /public                  # Arquivos estáticos (index.html, imagens)
-├── /src                     # Código fonte do projeto
-│   ├── /components          # Componentes React reutilizáveis
-│   ├── /pages               # Páginas do site (MainPage, QuizPage, etc)
-│   ├── /styles              # Arquivos CSS ou SCSS
-│   └── App.js               # Componente principal do React
-├── package.json             # Dependências e scripts do projeto
-└── README.md                # Este arquivo de documentação
+furia-fan-chat
+public                  # Arquivos estáticos (index.html, imagens)
+src                     # Código fonte do projeto
+/components          # Componentes React reutilizáveis
+/pages               # Páginas do site (MainPage, QuizPage, etc)
+/styles              # Arquivos CSS ou SCSS
+App.js               # Componente principal do React
+package.json             # Dependências e scripts do projeto
+README.md                # Este arquivo de documentação
+
 Funcionalidades
 Página Principal
 A página principal apresenta uma visão geral do app, com os seguintes elementos:
