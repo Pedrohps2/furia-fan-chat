@@ -1,0 +1,92 @@
+/* Estilos para o calendário */
+.calendar-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navigate-month {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .calendar-day {
+    padding: 10px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .calendar-day:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .game-day {
+    background-color: #ffeb3b;
+    font-weight: bold;
+    border: 1px solid #fbc02d;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .empty-day {
+    visibility: hidden;
+  }
+  
+  /* Detalhes do jogo */
+  .game-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .game-details h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #007bff;
+  }
+  
+  .game-details p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .game-details strong {
+    color: #000;
+  }
+  

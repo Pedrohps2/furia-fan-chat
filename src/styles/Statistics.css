@@ -1,0 +1,31 @@
+.statistics-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .stats-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .stats-item h4 {
+    font-size: 1.3em;
+    color: #007bff;
+  }
+  
+  .stats-item p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
