@@ -1,4 +1,4 @@
-FURIA CS:GO Fan Hub
+FURIA CS:GO Fan Chat
 Este é um projeto de um hub de fãs da FURIA focado em oferecer funcionalidades como notícias, estatísticas, calendário de partidas, quiz sobre CS:GO e chat com IA. O app foi criado utilizando React e várias bibliotecas para melhorar a experiência do usuário.
 
 
